@@ -1,4 +1,8 @@
-//https://p5js.org
+//The code example was written by Stavros Didakis
+//for the needs of the P5.js workshop
+//OFCourse, Thursday 5 July 2018 - Sunday 8 July 2018
+//Shanghai, China
+
 //02_Coordinates
 
 //Initialization function

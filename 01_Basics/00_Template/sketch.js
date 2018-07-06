@@ -1,4 +1,8 @@
-//https://p5js.org
+//The code example was written by Stavros Didakis
+//for the needs of the P5.js workshop
+//OFCourse, Thursday 5 July 2018 - Sunday 8 July 2018
+//Shanghai, China
+
 //00_Template
 //The purpose of this sketch is to provide a basic template
 //for P5.js projects

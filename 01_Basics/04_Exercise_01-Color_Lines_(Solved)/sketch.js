@@ -1,7 +1,8 @@
-//https://p5js.org
-//https://p5js.org/learn/
+//The code example was written by Stavros Didakis
+//for the needs of the P5.js workshop
+//OFCourse, Thursday 5 July 2018 - Sunday 8 July 2018
+//Shanghai, China
 
-//DAT405 / GAD405
 //03_Colorlines (Exercise 01)
 //Link all circles with individual lines
 //Color of the line is the mix of the circle colors

@@ -1,4 +1,8 @@
-//https://p5js.org
+//The code example was written by Stavros Didakis
+//for the needs of the P5.js workshop
+//OFCourse, Thursday 5 July 2018 - Sunday 8 July 2018
+//Shanghai, China
+
 //01_ProjectSetup
 //In this example we see how to create a canvas, set and display
 //the frame rate of the rendering system, and use text to
