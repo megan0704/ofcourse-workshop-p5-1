@@ -3,7 +3,7 @@
 //OFCourse, Thursday 5 July 2018 - Sunday 8 July 2018
 //Shanghai, China
 
-//05_Modulo and Rotations
+//01_Modulo and Rotations
 
 //Set variables
 let size = 50;
