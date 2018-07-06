@@ -3,7 +3,7 @@
 //OFCourse, Thursday 5 July 2018 - Sunday 8 July 2018
 //Shanghai, China
 
-//04_Simple Interaction
+//01_Simple Interaction
 
 //Define variables for the RGB
 let r = 255;
