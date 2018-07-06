@@ -12,7 +12,12 @@ function setup() {
 
 function draw() {
   background(255);
+  
   translate(mouseX, mouseY);
+  fill(200, 0, 200);
+  ellipse(0, 0, 80, 80);
+
+  translate(80, 80);
   fill(200, 0, 200);
   ellipse(0, 0, 80, 80);
 }
