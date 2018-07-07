@@ -12,11 +12,19 @@ function setup() {
 function draw() {
   background(255);
 
-  if (mouseX > width/2){
-    fill (255,0,0);
-  } else {
-    fill(0,0,255);
-  }
+  console.log(mouseX);
 
+  if (mouseX < width/2 && mouseY < height/2){
+    fill(0,0,255);
+
+  } else {
+    fill (255,0,0);
+
+  }
   ellipse(mouseX, mouseY, 100, 100);
+
+  stroke(0);
+  line(width/2,0,width/2, height);
+  line(0,height/2, width,height/2);
+
 }

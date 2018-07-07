@@ -3,7 +3,7 @@
 //OFCourse, Thursday 5 July 2018 - Sunday 8 July 2018
 //Shanghai, China
 
-//04_Exercise01 - Geometric Universe
+//08_Exercise01 - Geometric Universe
 
 function setup() {
   createCanvas(1000, 500);
