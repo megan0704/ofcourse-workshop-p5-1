@@ -16,7 +16,7 @@ let angle = 0;
 let jitter = 0;
 
 function setup() {
-  createCanvas(1000, 500);
+  createCanvas(500, 500);
   strokeWeight(8);
   noFill();
   frameRate(10);
@@ -26,7 +26,6 @@ function setup() {
   for (let i=0; i<300; i++){
     arrayX[i] = random(width);
     arrayY[i] = random(height);
-
   }
 }
 
@@ -34,10 +33,14 @@ function draw() {
   //background(50);
   //Create 300 shapes using the for-loop
 
+  let mapVariable = map(mouseX, 0, width, 0, 255);
+  console.log("mouseX: " + mouseX + ", mapVariable: " + mapVariable);
+
+
   if (second() % 2 == 0) jitter = random(-0.1, 0.1);
   angle = angle + jitter;
   let c = cos(angle)*255; //variable c defines the final rotation
-  console.log(c);
+  //console.log(c);
 
   for (var i = 0; i < 300; i++) {
     push(); //store the matrix before translate
@@ -50,6 +53,8 @@ function draw() {
     //Create two variables that store the mapped values for mouse position
     let makeRed = map(mouseX, 0, width, 0, 255);
     let makeBlue = map(mouseY, 0, height, 0, 255);
+
+    //console.log("mouseX: " + mouseX + ", makeRed: " + makeRed);
 
     //Mouse interaction defines the color of the strokes
     stroke(makeRed, c, makeBlue);
